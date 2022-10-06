@@ -4,9 +4,9 @@
   "main": "index.js",
   "repository": "https://github.com/claretnnamocha/zksync-hardhat-sample.git",
   "author": "claretnnamocha <devclareo@gmail.com>",
-  "license": "MIT",
   "scripts": {
-    "compile": "yarn hardhat compile"
+    "compile": "yarn hardhat compile",
+    "deploy": "yarn hardhat deploy-zksync"
   },
   "devDependencies": {
     "@matterlabs/hardhat-zksync-deploy": "^0.4.0",
